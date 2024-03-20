@@ -22,3 +22,7 @@ Here are some the more popular development platforms at this time:
 - **`CircuitPython` platform** ([CktPy]): A fork (derivative) of MicroPython [Adafruit][Adafruit-Learn].
   Tries to extend MicroPython to improve on ease-of-use. Some aspects are not quite
   interoperable with native Micropython API/solutions.
+
+
+## Resources
+- <https://learn.adafruit.com/welcome-to-circuitpython/what-is-circuitpython>
