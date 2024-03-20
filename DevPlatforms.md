@@ -1,5 +1,7 @@
-[CktPy]: <https://docs.circuitpython.org/en/latest>
-[uPy]: <https://docs.circuitpython.org/en/latest>
+[CktPy]: <https://circuitpython.org/>
+[CktPy-Docs]: <https://docs.circuitpython.org>
+[uPy]: <https://docs.micropython.org>
+[uPy-Docs]: <https://micropython.org/>
 [Arduino]: <https://www.arduino.cc/>
 [Adafruit-Learn]: <https://learn.adafruit.com/>
 
