@@ -5,4 +5,4 @@
 <!----------------------------------------------------------------------------->
 1. TODO: microcontroller vs SBC vs "computer"
 1. [Development platforms](DevPlatforms.md)
-1. [Harware platforms](HardwarePlatforms.md)
+1. [Form factors](FormFactors.md)
