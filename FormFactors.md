@@ -4,7 +4,7 @@
 ## Form factors for building your solutions
 <!----------------------------------------------------------------------------->
 
-# "Breakout+ boards"
+# "Breakout+ boards" (or "boardlets"?)
 Seems like the current trend is to provide hardware components as "breakout+
 boards".  The idea behind this trend appears to provide blocks that enable
 makers to get up-and-running as quickly as possible. Since modern manufacturing
@@ -30,7 +30,7 @@ these "standardized breakout+ boards".
 ## Castellated breakouts
 Some of the newer boards like the Raspberri Pi Nano even come with castellated
 mounting holes to simplify integration with custom project/PCB designs.
-This way, makers only have to connect up the signals/pins you care about -
+This way, makers only have to connect up the signals/pins they care about -
 and not worry about supporting hardware & circuitry (Power delivery, access to
 GPIOs, communications through USB, etc).
 
@@ -43,12 +43,8 @@ originally developped by others.
 <!----------------------------------------------------------------------------->
 **Metro**: Arduino (classic)-compatible form-factor (Ada-branded)
 - Big compared to what is considered practical Today.
-- That said: some people will prefer the larger size - especially on the
-  prototyping side of things.
-- Due to their larger size: "Metro" probably qualifies more like a proper
-  prototyping/development board than simple "breakout boards".
-  meant to provide practical "macro-scale" breakouts (or "boardlets") for manual
-  assembly of products.
+- Due to their larger size: Makers might view "Metro" boards more as
+  prototyping/development platforms than "macro-scale breakout+ boards".
 
 Feather: One format to rule them all!
 - Adafruit's attempt at making a relatively compact, standard form factor.
