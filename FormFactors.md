@@ -1,5 +1,12 @@
-[STM32]: <https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html>
 [SparkFun]: <https://www.sparkfun.com/>
+[STM32]: <https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html>
+[RPi-Pico]: <https://www.raspberrypi.com/products/raspberry-pi-pico/>
+[Ada-Metro]: <https://www.adafruit.com/category/818>
+[Ada-Feather]: <https://www.adafruit.com/category/777>
+[Ada-Trinkets]: <https://www.adafruit.com/category/261>
+[Ada-QTPy]: <https://www.adafruit.com/category/595>
+[Ada-CktPlay]: <https://www.adafruit.com/category/888>
+[Ada-Gemma]: <https://www.adafruit.com/category/868>
 
 ## Form factors for building your solutions
 <!----------------------------------------------------------------------------->
@@ -41,12 +48,12 @@ originally developped by others.
 
 ## Adafruit:
 <!----------------------------------------------------------------------------->
-**Metro**: Arduino (classic)-compatible form-factor (Ada-branded)
+[Metro][Ada-Metro]: Arduino (classic)-compatible form-factor (Ada-branded)
 - Big compared to what is considered practical Today.
 - Due to their larger size: Makers might view "Metro" boards more as
   prototyping/development platforms than "macro-scale breakout+ boards".
 
-Feather: One format to rule them all!
+[Feather][Ada-Feather]: One format to rule them all!
 - Adafruit's attempt at making a relatively compact, standard form factor.
 - Dimensions carefully chosen to strike a balance between number of available
   pins on the periphery vs space for components inside.
@@ -61,26 +68,29 @@ Feather: One format to rule them all!
 - FeatherWings (add-on boards/expansion packs):<br>
   https://learn.adafruit.com/adafruit-feather/featherwings
 
-[Trinkets](https://www.adafruit.com/category/261) (+ ItsyBitsy, Trinkey, Metro Mini, ...):
+[Trinkets][Ada-Trinkets] (+ ItsyBitsy, Trinkey, Metro Mini, ...):
 - Even smaller form factor than feather.
+- [Metro Mini](https://learn.adafruit.com/adafruit-metro-mini): Built-in serial-to-USB.
 
 [Kee Boar](https://learn.adafruit.com/adafruit-kb2040):
 - Designed to replace Arduino Pro Micro in making custom keyboards.
 - Similar size to the ItsyBitsy - but specifically designed to be pin-compatible
   with Arduino Pro Micro boards.
 
-**QT Py**:
+[QT Py][Ada-QTPy]:
 - Tinyier still! Uses XIAO form-factor (Ada-branded).
 
-Circuit Playground:
+[Circuit Playground][Ada-CktPlay]:
 - Target STEAM learning in schools.
 
-Gemma:
+[Gemma][Ada-Gemma]:
 - Tiny version of Circuit Playground (it seems)! ... but for????
 
 
 ## Arduino
 <!----------------------------------------------------------------------------->
+<https://store-usa.arduino.cc/collections/boards-modules>
+
 Nano:
 - Small form factor
 
@@ -93,11 +103,6 @@ Classic:
 Mega:
 - Slightly larger form factor. Typically for more powerful microcontrollers.
 
-## Raspberry Pi:
-<!----------------------------------------------------------------------------->
-- RP2040 Pico: The first microcontroller board from the Raspberry Pi foundation
-  <https://www.raspberrypi.com/products/raspberry-pi-pico/>
-
 ## BBC
 <!----------------------------------------------------------------------------->
 - **micro:bit** <https://microbit.org/>
@@ -108,6 +113,9 @@ Mega:
 - Teensy 4.0
 - Teensy 4.1
 
+## Raspberry Pi:
+<!----------------------------------------------------------------------------->
+- [RP2040 Pico][RPi-Pico]: The first microcontroller board from the Raspberry Pi foundation
 
 ## Seeed Studio:
 <!----------------------------------------------------------------------------->
