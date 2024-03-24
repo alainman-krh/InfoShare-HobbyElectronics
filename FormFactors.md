@@ -70,7 +70,12 @@ originally developped by others.
 
 [Trinkets][Ada-Trinkets] (+ ItsyBitsy, Trinkey, Metro Mini, ...):
 - Even smaller form factor than feather.
-- [Metro Mini](https://learn.adafruit.com/adafruit-metro-mini): Built-in serial-to-USB.
+- [Metro Mini](https://learn.adafruit.com/adafruit-metro-mini):
+  Built-in serial-to-USB + StemmaQT.
+- [Pro Trinket](https://learn.adafruit.com/introducing-pro-trinket):
+  (deprecated due to bit-bang USB). Like Arduino Pro-Mini.
+- [ItsyBitsy 5V](https://www.adafruit.com/product/3677)/[ItsyBitsy 3.3V](https://www.adafruit.com/product/3675)
+
 
 [Kee Boar](https://learn.adafruit.com/adafruit-kb2040):
 - Designed to replace Arduino Pro Micro in making custom keyboards.
