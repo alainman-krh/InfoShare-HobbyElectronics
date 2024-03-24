@@ -23,18 +23,18 @@ application. More information can be found here:
 - [ADA/STEMMA (classic) device](https://www.adafruit.com/product/4336):
   Analog/Digital/PWM device (not I2C).
   <br>Don't think there are many.
-- Gravity device (watch out for pin compatibility)
+- Gravity device (not I2C): ⚠️watch out for pin cross-compatibility.
 
 4-pin JST-PH (2mm):
 - [ADA/STEMMA (classic) I2C](https://www.adafruit.com/product/3568)
-- [Gravity I2C](https://www.adafruit.com/product/5244) (watch out for pin compatibility)
+- Gravity I2C: ⚠️watch out for pin cross-compatibility.
 
 ## Grove (2mm/Small): Proprietary
 Similar to JST-PH... but appear to be different.
 
 4-pin Grove (2mm)
-- Grove I2C
-- Grove dual-pin device
+- [Grove I2C](https://www.adafruit.com/product/5244)
+- [Grove dual-pin device](https://www.adafruit.com/product/5244)
 
 ## JST-SH (1mm/VERY Small)
 3-pin JST-SH (1mm):
