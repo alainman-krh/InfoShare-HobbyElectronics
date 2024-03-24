@@ -67,7 +67,6 @@ TODO: Make Table
 - Cellular
 
 Some more description:
-Bluetooth: <https://learn.adafruit.com/adafruit-feather/bluetooth-feathers>
-LoRa/RFM69: <https://learn.adafruit.com/adafruit-feather/lora-radio-feathers>
-
-ONLY ESP32 can do BT classic in Adafruit's lineup.
+- Bluetooth: <https://learn.adafruit.com/adafruit-feather/bluetooth-feathers>
+- LoRa/RFM69: <https://learn.adafruit.com/adafruit-feather/lora-radio-feathers>
+- ONLY ESP32 can do BT classic in Adafruit's lineup.
