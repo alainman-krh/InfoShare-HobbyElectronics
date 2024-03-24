@@ -23,11 +23,11 @@ application. More information can be found here:
 - [ADA/STEMMA (classic) device](https://www.adafruit.com/product/4336):
   Analog/Digital/PWM device (not I2C).
   <br>Don't think there are many.
-- Gravity device (not I2C): ⚠️watch out for pin cross-compatibility.
+- DFRobot/Gravity device (not I2C): [⚠️pin order does not line-up with other systems](https://learn.adafruit.com/introducing-adafruit-stemma-qt/dfrobot-gravity).
 
 4-pin JST-PH (2mm):
 - [ADA/STEMMA (classic) I2C](https://www.adafruit.com/product/3568)
-- Gravity I2C: ⚠️watch out for pin cross-compatibility.
+- DFRobot/Gravity I2C: [⚠️pin order does not line-up with other systems](https://learn.adafruit.com/introducing-adafruit-stemma-qt/dfrobot-gravity).
 
 ## Grove (2mm/Small): Proprietary
 Similar to JST-PH... but appear to be different.
