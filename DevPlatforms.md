@@ -29,6 +29,7 @@ Here are some the more popular development platforms at this time:
   A fork (derivative) of MicroPython [Adafruit][Adafruit-Learn]. Tries to
   extend MicroPython to improve on ease-of-use. Some aspects are not quite
   interoperable with native Micropython API/solutions.
+  - \*Pre-compiled [Library Bundles](https://circuitpython.org/libraries) are also available for CircuitPython.
 
 
 ## Resources
