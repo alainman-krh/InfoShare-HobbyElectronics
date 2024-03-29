@@ -5,9 +5,18 @@
 
 ## Connectors
 
-# Basic pin/socket jumper wiring:
+# Breadboard/protoboard wiring
 <!----------------------------------------------------------------------------->
-Adafruit starter kit: https://www.adafruit.com/category/306
+Standard breadboards use 22 AWG (solid-core) "hook-up" wires to connect-up
+circuits elements together:
+- 6 spools: <https://www.adafruit.com/product/1311>
+- 10 spools: <https://www.adafruit.com/product/3174>
+
+# Basic pin/socket jumper wiring (next step up):
+<!----------------------------------------------------------------------------->
+Pre-made cables:
+- Adafruit selection: <https://www.adafruit.com/category/306>
+- Adafruit starter kit: <https://www.adafruit.com/product/5070>
 
 Pre-crimped, ready to split:
 - M/M: <https://www.adafruit.com/product/3142>
