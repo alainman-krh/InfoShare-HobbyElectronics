@@ -24,10 +24,11 @@ attached circuit(s)/device(s):
 
 But also needs to operate on a matching electrical standard like RS-232, RS-422, RS484 (below).
 
+<a name="EIA_TIA_standards"></a>
 ## EIA/TIA electrical standards
 3 well established electrical standards are defined by both the TIA and EIA:
 - [RS-232 (Also EIA-232 or TIA-232)](https://en.wikipedia.org/wiki/RS-232)
-- [RS-422 (Also EIA-232 or TIA-232)](https://en.wikipedia.org/wiki/RS-232)
+- [RS-422 (Also EIA-422 or TIA-422)](https://en.wikipedia.org/wiki/RS-422)
 - [RS-485 (Also: EIA-485 or TIA-485)](https://en.wikipedia.org/wiki/RS-485)
 
 Links to info on TIA/EIA:

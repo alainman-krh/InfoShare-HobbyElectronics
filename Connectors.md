@@ -1,3 +1,8 @@
+<!-- Reference-style links to make tables & lists more readable -->
+[VCELiNK-Keystone]: <https://www.amazon.ca/stores/page/76F89957-8DA8-4230-91C8-5E17D49C24AA>
+[PrimeCables-KeystoneAV]: <https://www.primecables.ca/c-1089-audio-video-keystone-jacks>
+[InfiniteCables-SurfaceBox]: <https://www.infinitecables.com/collections/surface-boxes>
+
 ## Connectors
 
 # Basic pin/socket jumper wiring:
@@ -64,3 +69,36 @@ Similar to JST-PH... but appear to be different.
 - [ADA/STEMMA QT](https://www.adafruit.com/product/4399)
 - [SparkFun/Qwiic](https://www.sparkfun.com/products/15081)
 
+## Molex KK-254 (2.54mm/0.1"/Medium)
+Larger (higher) than JST-XH.
+
+## "Universal" Crimpers:
+- Adafruit: <https://www.adafruit.com/category/622>
+
+# D-subminiature (DB9/DB25/...)
+<!----------------------------------------------------------------------------->
+- Info: <https://en.wikipedia.org/wiki/D-subminiature>
+- Large and bulky by today's standard.
+- Form factor might be practical for many people.
+- Used in alot of older equipment (typically [RS-232 communications](Communications.md#EIA_TIA_standards))
+- DB9 breakout connector: <https://www.adafruit.com/product/3122>
+
+# RJ-45 ("Ethernet")
+<!----------------------------------------------------------------------------->
+For all-around flexibility. [See section on Networking Connectors](ConnectorsNetworking.md).
+
+Advantages:
+- Cables are everywhere/easy to find.
+- Larger size (easier to manipulate) - yet relatively compact.
+- Comes in a bundle.
+- Twisted into pairs to limit interference (assuming differential signalling).
+- Cheap/easy to build.
+- Keystone jacks are readily available \< [VCELiNK-Keystone] \>.
+  <br>==> Can even use surface boxes as project boxes: \< [InfiniteCables-SurfaceBox] \>
+  <br>==> And integrate with other Keystone connectors: \< [PrimeCables-KeystoneAV] \>
+
+⚠️Warning/Dangers:
+- Custom RJ-45 cables invites people to plug your ciruit into something it shouldn't
+  connected to (like).
+- Preferable if you can use standard wiring scheme.
+- Preferable if you can label anything non-standard in an obvious way.

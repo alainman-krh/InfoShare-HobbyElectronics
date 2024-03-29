@@ -45,14 +45,14 @@ and not worry about supporting hardware & circuitry (Power delivery, access to
 GPIOs, communications through USB, etc).
 
 # Form factors (so many to choose from!)
-Many organizations have come up with different form factors that are in use Today.
+Many organizations have come up with different form factors that are in use today.
 Since many of these designs are meant to be open, vendors often support form factors
 originally developped by others.
 
 ## Adafruit:
 <!----------------------------------------------------------------------------->
 [Metro][Ada-Metro]: Arduino (classic)-compatible form-factor (Ada-branded)
-- Big compared to what is considered practical Today.
+- Big compared to what is considered practical today.
 - Due to their larger size: Makers might view "Metro" boards more as
   prototyping/development platforms than "macro-scale breakout+ boards".
 
