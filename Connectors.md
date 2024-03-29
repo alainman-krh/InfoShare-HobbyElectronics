@@ -108,6 +108,6 @@ Advantages:
 
 ⚠️Warning/Dangers:
 - Custom RJ-45 cables invites people to plug your ciruit into something it shouldn't
-  connected to (like).
-- Preferable if you can use standard wiring scheme.
-- Preferable if you can label anything non-standard in an obvious way.
+  connected to (ex: your PC's ethernet jack).
+- Preferable to use standard wiring scheme whenever possible.
+- Preferable to label anything non-standard in an obvious way.
