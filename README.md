@@ -9,4 +9,6 @@
 1. 📏 [Form factors](FormFactors.md)
 1. 📡 [Communications/Wi-Fi/Bluetooth](FormFactors.md)
 1. 🔌 [Connectors](Connectors.md)
+1. 💾 [Programming methods (uploading code)](ProgrammingMethods.md)
+1. 🔨 [Tools](Tools.md)
 1. 🤸‍♀️ [Techniques](Techniques.md)
