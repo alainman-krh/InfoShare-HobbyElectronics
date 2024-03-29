@@ -17,6 +17,8 @@ Pre-crimped, ready to split:
 This section lists connectors popular with current maker boards, and their
 application. More information can be found here:
 - <https://learn.adafruit.com/introducing-adafruit-stemma-qt/stemma-qt-comparison>
+- Good video show/tell (few types only): 🎞️<https://youtu.be/tBipTe69x-o?t=91>
+- More reading: <https://www.tomshardware.com/features/stemma-vs-qwiic-vs-grove-connectors>
 
 ⚠️Warning
 - Not all devices expect the same signal levels/power to be delivered on their
@@ -24,8 +26,6 @@ application. More information can be found here:
   and 3.3V. Please ensure proper level match/shifting is in order.
 - Not all formats work together. Please refer to:<br>
   <https://learn.adafruit.com/introducing-adafruit-stemma-qt/stemma-qt-comparison#quick-comparison-3035247>
-- Good video explanation: 🎞️<https://youtu.be/tBipTe69x-o?t=91>
-- More reading: <https://www.tomshardware.com/features/stemma-vs-qwiic-vs-grove-connectors>
 
 ## JST-XH (2.5mm/0.1"/Medium)
 > XH-Kit (Adafruit): <https://www.adafruit.com/product/4423>
