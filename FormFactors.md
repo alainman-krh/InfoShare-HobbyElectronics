@@ -32,7 +32,9 @@ more robust.
 
 On a smaller scale though: makers will likely find these boards quite adequeate
 for their final product. Makers can even design their own PCBs to accept one of
-these "standardized breakout+ boards".
+these "standardized breakout+ boards". Some examples:
+- <https://learn.adafruit.com/trinket-audio-player>
+- <https://learn.adafruit.com/faderwave-synthesizer/assemble-the-synth>
 
 ## Castellated breakouts
 Some of the newer boards like the Raspberri Pi Nano even come with castellated

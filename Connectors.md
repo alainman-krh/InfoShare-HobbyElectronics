@@ -1,7 +1,19 @@
 
 ## Connectors
 
-# Maker power/communications:
+# Basic pin/socket jumper wiring:
+<!----------------------------------------------------------------------------->
+Adafruit starter kit: https://www.adafruit.com/category/306
+
+Pre-crimped, ready to split:
+- M/M: <https://www.adafruit.com/product/3142>
+- F/F: <https://www.adafruit.com/product/3141>
+- M/F: <https://www.adafruit.com/product/3633>
+- Headers 1 row: [SMALL](https://www.adafruit.com/product/3145), [LARGE](https://www.adafruit.com/product/3146)
+- Headers 2 rows: [SMALL](https://www.adafruit.com/product/3143), [LARGE](https://www.adafruit.com/product/3144)
+
+# Advanced maker connectors:
+<!----------------------------------------------------------------------------->
 This section lists connectors popular with current maker boards, and their
 application. More information can be found here:
 - <https://learn.adafruit.com/introducing-adafruit-stemma-qt/stemma-qt-comparison>
@@ -12,8 +24,17 @@ application. More information can be found here:
   and 3.3V. Please ensure proper level match/shifting is in order.
 - Not all formats work together. Please refer to:<br>
   <https://learn.adafruit.com/introducing-adafruit-stemma-qt/stemma-qt-comparison#quick-comparison-3035247>
+- Good video explanation: 🎞️<https://youtu.be/tBipTe69x-o?t=91>
+- More reading: <https://www.tomshardware.com/features/stemma-vs-qwiic-vs-grove-connectors>
+
+## JST-XH (2.5mm/0.1"/Medium)
+> XH-Kit (Adafruit): <https://www.adafruit.com/product/4423>
+
+- Breadboard/protoboard compatible pitch
 
 ## JST-PH (2mm/Small)
+> PH-Kit (Adafruit): <https://www.adafruit.com/product/4422>
+
 2-pin JST-PH (2mm):
 - Some lithium-ion polymer ("Lipo") connectors (Adafruit: <https://www.adafruit.com/category/574>).
 - Some battery holders (Adafruit: <https://www.adafruit.com/category/135>).
