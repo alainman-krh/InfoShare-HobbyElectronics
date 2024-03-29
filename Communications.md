@@ -1,3 +1,4 @@
+<!-- Reference-style links to make tables & lists more readable -->
 [UART-Wiki]: <https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter>
 
 ## Communications/Wi-Fi/Bluetooth

@@ -1,3 +1,4 @@
+<!-- Reference-style links to make tables & lists more readable -->
 [SparkFun]: <https://www.sparkfun.com/>
 [STM32]: <https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html>
 [RPi-Pico]: <https://www.raspberrypi.com/products/raspberry-pi-pico/>

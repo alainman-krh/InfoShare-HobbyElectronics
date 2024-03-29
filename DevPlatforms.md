@@ -1,3 +1,4 @@
+<!-- Reference-style links to make tables & lists more readable -->
 [CktPy]: <https://circuitpython.org/>
 [CktPy-Docs]: <https://docs.circuitpython.org>
 [CktPy-Download]: <https://circuitpython.org/downloads>
@@ -9,12 +10,13 @@
 [Arduino-Download]: <https://www.arduino.cc/en/software>
 [Adafruit-Learn]: <https://learn.adafruit.com/>
 
-# Development platforms
+## Development platforms
 <!----------------------------------------------------------------------------->
 Development platofrms provide convenient software "components" (API) to make
 it easier to interact with the hardware components. Ideally/typically, the API
 is written such that all hardware interactions require similar glue code.
 
+# Popular platforms
 Here are some the more popular development platforms at this time:
 - **[Arduino] platform** ([Docs][Arduino-Docs]/[Download][Arduino-Download]):
   C++ programming. Runs very fast, uses little memory. C++ is more difficult to
@@ -32,5 +34,5 @@ Here are some the more popular development platforms at this time:
   - \*Pre-compiled [Library Bundles](https://circuitpython.org/libraries) are also available for CircuitPython.
 
 
-## Resources
+# Resources
 - <https://learn.adafruit.com/welcome-to-circuitpython/what-is-circuitpython>
