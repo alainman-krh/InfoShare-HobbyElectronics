@@ -12,9 +12,12 @@ circuits elements together:
 - 6 spools: <https://www.adafruit.com/product/1311>
 - 10 spools: <https://www.adafruit.com/product/3174>
 
-# Basic pin/socket jumper wiring (next step up):
+# Dupont cables: the next step up:
 <!----------------------------------------------------------------------------->
-Pre-made cables:
+It seems like the next step up from using 22AWG cables on breadboards is to use
+cables terminated with "Dupont connectors".
+
+Pre-made Dupont "jumper wires":
 - Adafruit selection: <https://www.adafruit.com/category/306>
 - Adafruit starter kit: <https://www.adafruit.com/product/5070>
 
@@ -81,9 +84,6 @@ Similar to JST-PH... but appear to be different.
 ## Molex KK-254 (2.54mm/0.1"/Medium)
 Larger (higher) than JST-XH.
 
-## "Universal" Crimpers:
-- Adafruit: <https://www.adafruit.com/category/622>
-
 # D-subminiature (DB9/DB25/...)
 <!----------------------------------------------------------------------------->
 - Info: <https://en.wikipedia.org/wiki/D-subminiature>
@@ -111,3 +111,34 @@ Advantages:
   connected to (ex: your PC's ethernet jack).
 - Preferable to use standard wiring scheme whenever possible.
 - Preferable to label anything non-standard in an obvious way.
+
+## Connectors Tools:
+⚠️Warning:
+- There is a dizzying number of different crimping tools that work with
+  different types of connector ends.
+- Information on which are which crimping tools works well with which connector
+  appears to be misleading, sparse and/or difficult to find.
+- Not sure why finding a matching tool for a given connector type is so
+  difficult - especially given that makers mostly stick to a finite subset of
+  the same connectors.
+
+Example of some crimpers... just not sure which ones work:
+- "Universal" Crimpers: (Adafruit): <https://www.adafruit.com/category/622>
+
+I personally tried the SN-28B tool (typ. blue handles). I would say no one die
+is the right size for any of the JST connectors mentionned here (physically too
+large/long). Also: it does not include a single "round"/"O" die - which is
+apparently a requirement for crimping Dupont connectors. So I am still lost
+when it comes to the intended purpose of the SN-28B tool (what does it crimp?)
+given how popular it appears to be.
+
+### Searching for compatible tools
+Here, I list some information that seems to point to what is needed to
+crimp these small connectors:
+- <https://cdn-shop.adafruit.com/datasheets/JST_CrinpChart%20%28English%29.pdf>
+- <https://www.engineertools-jp.com/pa24>
+  - [Direct link to JST "Application chart"](https://www.nejisaurus.engineer.jp/_files/ugd/104650_594335d26d724883affcaa8929df7c19.pdf)
+  - [Talks about "M" vs "O"-shaped dice](https://www.youtube.com/watch?v=tSq1LYbP0KA)
+- <https://www.youtube.com/watch?v=ltEFDEAx_yA>
+
+The information collected skews towards the PA-24 pliers. Not sure if that is red herring.
