@@ -57,9 +57,9 @@ application. More information can be found here:
   <br>⚠️Warning: Do not connect batteries to products with Li-Ion/Poly charging ports!
 
 3-pin JST-PH (2mm):
-- [ADA/STEMMA (classic) device](https://www.adafruit.com/product/4336):
+- [ADA/STEMMA (classic) device](https://www.adafruit.com/category/1019):
   Analog/Digital/PWM device (not I2C).
-  <br>Don't think there are many.
+- Used to connect with breakout boards of simple blocks like motors & neo-pixel products.
 - DFRobot/Gravity device (not I2C): [⚠️pin order does not line-up with other systems](https://learn.adafruit.com/introducing-adafruit-stemma-qt/dfrobot-gravity).
 
 4-pin JST-PH (2mm):

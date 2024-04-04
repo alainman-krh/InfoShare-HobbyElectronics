@@ -5,7 +5,7 @@
 <!----------------------------------------------------------------------------->
 1. TODO: microcontroller vs SBC vs "computer"
 1. 🚀 [Development platforms](DevPlatforms.md)
-   1. 🐍 [More CircuitPython](CircuitPython\CktPy_Contents.md)
+   1. 🐍 [More CircuitPython](CircuitPython/CktPy_Contents.md)
 1. 📏 [Form factors](FormFactors.md)
 1. 📡 [Communications/Wi-Fi/Bluetooth](FormFactors.md)
 1. 🔌 [Connectors](Connectors.md)
