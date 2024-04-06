@@ -15,3 +15,7 @@
 # Online tools (aggregators)
 <!----------------------------------------------------------------------------->
 - [Digikey-Agg]
+
+# Physical tools/connectors
+- [RJ-45 connectors/tools](Connectors.md#CrimpingTools_RJ45)
+- [Other crimping tools](Connectors.md#CrimpingTools_Other)

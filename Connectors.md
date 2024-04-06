@@ -2,7 +2,7 @@
 [VCELiNK-Keystone]: <https://www.amazon.ca/stores/page/76F89957-8DA8-4230-91C8-5E17D49C24AA>
 [PrimeCables-KeystoneAV]: <https://www.primecables.ca/c-1089-audio-video-keystone-jacks>
 [InfiniteCables-SurfaceBox]: <https://www.infinitecables.com/collections/surface-boxes>
-
+[Preciva-JSTDupont]: <https://www.amazon.ca/Crimping-Preciva-Ratcheting-Connectors-0-1-1mm%C2%B2/dp/B07R1H3Z8X>
 ## Connectors
 
 # Breadboard/protoboard wiring
@@ -92,7 +92,8 @@ Larger (higher) than JST-XH.
 - Used in alot of older equipment (typically [RS-232 communications](Communications.md#EIA_TIA_standards))
 - DB9 breakout connector: <https://www.adafruit.com/product/3122>
 
-# RJ-45 ("Ethernet")
+<a name="CrimpingTools_RJ45"></a>
+# RJ-45 ("ethernet") crimping tools \& connectors
 <!----------------------------------------------------------------------------->
 For all-around flexibility. [See section on Networking Connectors](ConnectorsNetworking.md).
 
@@ -112,7 +113,8 @@ Advantages:
 - Preferable to use standard wiring scheme whenever possible.
 - Preferable to label anything non-standard in an obvious way.
 
-## Connectors Tools:
+<a name="CrimpingTools_Other"></a>
+# Crimping tools for other connectors:
 ⚠️Warning:
 - There is a dizzying number of different crimping tools that work with
   different types of connector ends.
@@ -132,7 +134,7 @@ apparently a requirement for crimping Dupont connectors. So I am still lost
 when it comes to the intended purpose of the SN-28B tool (what does it crimp?)
 given how popular it appears to be.
 
-### Searching for compatible tools
+### Searching for compatible crimping tools
 Here, I list some information that seems to point to what is needed to
 crimp these small connectors:
 - <https://cdn-shop.adafruit.com/datasheets/JST_CrinpChart%20%28English%29.pdf>
@@ -142,3 +144,11 @@ crimp these small connectors:
 - <https://www.youtube.com/watch?v=ltEFDEAx_yA>
 
 The information collected skews towards the PA-24 pliers. Not sure if that is red herring.
+
+### Working crimping tool for JST+Dupont found!!!
+This crimping tool ([Preciva PR-3254][Preciva-JSTDupont]) seems to work very well with both JST \& Dupont connectors.
+- The die thickness matches the connectors well... and don't crush the retention pin (if pulled snug).
+- The ratchet does not bend the connectors backwards (in my experience).
+- Has "O" shaped die - which Engineer tools indicates as better/required.
+- BUT... required tightening of adjustment screw to ensure pull resistance.
+  (then again - that's what adjustment screws are for).
