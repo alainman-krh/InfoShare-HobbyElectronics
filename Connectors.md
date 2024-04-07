@@ -2,7 +2,11 @@
 [VCELiNK-Keystone]: <https://www.amazon.ca/stores/page/76F89957-8DA8-4230-91C8-5E17D49C24AA>
 [PrimeCables-KeystoneAV]: <https://www.primecables.ca/c-1089-audio-video-keystone-jacks>
 [InfiniteCables-SurfaceBox]: <https://www.infinitecables.com/collections/surface-boxes>
+[Adafruit-JSTDatasheet]: <https://cdn-shop.adafruit.com/datasheets/JST_CrinpChart%20%28English%29.pdf>
+[MWCP-PA24]: <https://www.youtube.com/watch?v=ltEFDEAx_yA>
 [Preciva-JSTDupont]: <https://www.amazon.ca/Crimping-Preciva-Ratcheting-Connectors-0-1-1mm%C2%B2/dp/B07R1H3Z8X>
+[Chapster-Crimping]: <https://www.youtube.com/watch?v=D1ErLvXlOTs>
+[Adafruit-Crimping]: <https://www.youtube.com/watch?v=_zl28E2urEU>
 ## Connectors
 
 # Breadboard/protoboard wiring
@@ -137,18 +141,38 @@ given how popular it appears to be.
 ### Searching for compatible crimping tools
 Here, I list some information that seems to point to what is needed to
 crimp these small connectors:
-- <https://cdn-shop.adafruit.com/datasheets/JST_CrinpChart%20%28English%29.pdf>
-- <https://www.engineertools-jp.com/pa24>
+- [Adafruit-JSTDatasheet]
+- PA-24 (Engineering Tools): <https://www.engineertools-jp.com/pa24>
   - [Direct link to JST "Application chart"](https://www.nejisaurus.engineer.jp/_files/ugd/104650_594335d26d724883affcaa8929df7c19.pdf)
   - [Talks about "M" vs "O"-shaped dice](https://www.youtube.com/watch?v=tSq1LYbP0KA)
-- <https://www.youtube.com/watch?v=ltEFDEAx_yA>
+- [MWCP-PA24]
 
 The information collected skews towards the PA-24 pliers. Not sure if that is red herring.
 
 ### Working crimping tool for JST+Dupont found!!!
-This crimping tool ([Preciva PR-3254][Preciva-JSTDupont]) seems to work very well with both JST \& Dupont connectors.
-- The die thickness matches the connectors well... and don't crush the retention pin (if pulled snug).
+This crimping tool ([Preciva PR-3254][Preciva-JSTDupont]) seems to work very
+well with both JST \& Dupont connectors.
+- The die thickness matches the connectors well... and don't crush the
+  retention pin (if pulled snug).
 - The ratchet does not bend the connectors backwards (in my experience).
 - Has "O" shaped die - which Engineer tools indicates as better/required.
 - BUT... required tightening of adjustment screw to ensure pull resistance.
   (then again - that's what adjustment screws are for).
+
+### How to crimp
+It takes a bit of practice. Videos on how to crimp properly are difficult to
+find. Subtle issues with different techiques can cause problems. The most
+obvious is using the wrong tool for the wrong job (poor documentation,
+exaggerated compatibility claims, etc).
+
+Here are a few useful videos:
+- [Chapster-Crimping] (Similar technique to Dupont/others).
+  - ⚠️Warning: I would avoid using a hobby knife to release connector pins.
+    Please find something safer.
+- [Adafruit-Crimping]
+
+Tips 👍:
+- Always remove connectors from the metal strip backing - unless your crimps
+  are specifically designed for them. On typical crimps: metal strips interfere
+  with either the proper positioning of the connector pin... or the travel
+  distance of the crimp jaws/dies.
