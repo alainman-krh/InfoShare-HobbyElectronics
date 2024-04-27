@@ -9,6 +9,8 @@
 [Arduino-Docs]: <https://docs.arduino.cc/>
 [Arduino-Download]: <https://www.arduino.cc/en/software>
 [Adafruit-Learn]: <https://learn.adafruit.com/>
+[Blinka-Home]: <https://circuitpython.org/blinka>
+[Blinka-Docs]: <https://docs.circuitpython.org/projects/blinka/en/latest/>
 
 ## Development platforms
 <!----------------------------------------------------------------------------->
@@ -27,12 +29,22 @@ Here are some the more popular development platforms at this time:
   platforms. Python is typically slower than C++, and requires more memory to
   both store programs, and run. That said: programming in python is noticeably
   faster, and the learning curve is not nearly as steep.
+  - [Maximising MicroPython speed](https://docs.micropython.org/en/latest/reference/speed_python.html)
+  - [Optimizations](https://docs.micropython.org/en/latest/develop/optimizations.html)
 - **`CircuitPython` platform** ([CktPy]/[Docs][CktPy-Docs]/[Download][CktPy-Download]):
   A fork (derivative) of MicroPython [Adafruit][Adafruit-Learn]. Tries to
   extend MicroPython to improve on ease-of-use. Some aspects are not quite
   interoperable with native Micropython API/solutions.
   - \*Pre-compiled [Library Bundles](https://circuitpython.org/libraries) are also available for CircuitPython.
+  - At time of writing: Does not include multi-core support (unlike MicroPython).
+  - [Adafruit: What is CircuitPython?](https://learn.adafruit.com/welcome-to-circuitpython/what-is-circuitpython)
+  - [Adafruit: Welcome to CircuitPython! (FAQ)](https://learn.adafruit.com/welcome-to-circuitpython/frequently-asked-questions)
+  - [Adafruit: CircuitPython Essentials](https://learn.adafruit.com/circuitpython-essentials)
+  
+# Blinka libraries
+Making CircuitPython libraries available to SBCs (ex: Raspberry Pi) and MicroPython itself!
+- [Blinka-Home], [Blinka-Docs]
+- [Adafruit: CircuitPython Libraries on Linux and Raspberry Pi](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux)
 
-
-# Resources
-- <https://learn.adafruit.com/welcome-to-circuitpython/what-is-circuitpython>
+# Other resources
+- [🎞️ CircuitPython vs MicroPython: Key Differences](https://www.youtube.com/watch?v=wyOcb2MHzIs)
