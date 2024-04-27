@@ -3,8 +3,8 @@
 [PrimeCables-KeystoneAV]: <https://www.primecables.ca/c-1089-audio-video-keystone-jacks>
 [InfiniteCables-SurfaceBox]: <https://www.infinitecables.com/collections/surface-boxes>
 [Adafruit-JSTDatasheet]: <https://cdn-shop.adafruit.com/datasheets/JST_CrinpChart%20%28English%29.pdf>
-[MWCP-PA24]: <https://www.youtube.com/watch?v=ltEFDEAx_yA>
 [Preciva-JSTDupont]: <https://www.amazon.ca/Crimping-Preciva-Ratcheting-Connectors-0-1-1mm%C2%B2/dp/B07R1H3Z8X>
+[Engineer-PA24]: <https://www.engineertools-jp.com/pa24>
 [Chapster-Crimping]: <https://www.youtube.com/watch?v=D1ErLvXlOTs>
 [Adafruit-Crimping]: <https://www.youtube.com/watch?v=_zl28E2urEU>
 ## Connectors
@@ -88,7 +88,10 @@ Similar to JST-PH... but appear to be different.
 ## Molex KK-254 (2.54mm/0.1"/Medium)
 Larger (higher) than JST-XH.
 
-# D-subminiature (DB9/DB25/...)
+# Older/bulkier connector types (but still around)
+<!----------------------------------------------------------------------------->
+
+## D-subminiature (DB9/DB25/...)
 <!----------------------------------------------------------------------------->
 - Info: <https://en.wikipedia.org/wiki/D-subminiature>
 - Large and bulky by today's standard.
@@ -96,8 +99,10 @@ Larger (higher) than JST-XH.
 - Used in alot of older equipment (typically [RS-232 communications](Communications.md#EIA_TIA_standards))
 - DB9 breakout connector: <https://www.adafruit.com/product/3122>
 
+# Crimping tools
+<!----------------------------------------------------------------------------->
 <a name="CrimpingTools_RJ45"></a>
-# RJ-45 ("ethernet") crimping tools \& connectors
+## RJ-45 ("ethernet") crimping tools \& connectors
 <!----------------------------------------------------------------------------->
 For all-around flexibility. [See section on Networking Connectors](ConnectorsNetworking.md).
 
@@ -117,41 +122,27 @@ Advantages:
 - Preferable to use standard wiring scheme whenever possible.
 - Preferable to label anything non-standard in an obvious way.
 
-<a name="CrimpingTools_Other"></a>
-# Crimping tools for other connectors:
-⚠️Warning:
-- There is a dizzying number of different crimping tools that work with
-  different types of connector ends.
-- Information on which are which crimping tools works well with which connector
-  appears to be misleading, sparse and/or difficult to find.
-- Not sure why finding a matching tool for a given connector type is so
-  difficult - especially given that makers mostly stick to a finite subset of
-  the same connectors.
+<a name="CrimpingTools_XHDupont"></a>
+## JST-XH + Dupont crimping tools: Verified-to-work!!!
+<!----------------------------------------------------------------------------->
+Finding a crimping tool that actually works for your connector type can be
+non-trivial - as will be discussed in the next section. That said, this section
+lists a few tools that have been found to work quite well for JST-XH and Dupont
+connector types:
 
-Example of some crimpers... just not sure which ones work:
-- "Universal" Crimpers: (Adafruit): <https://www.adafruit.com/category/622>
+### Engineer Tools PA-24 (confirmed: JST-XH + Dupont)
+This crimping tool ([Engineer Tools PA-24][Engineer-PA24]) works well with both
+JST \& Dupont connectors.
+- The die thickness matches the connectors well... and don't crush the
+  retention pin (if pulled snug).
+- Does not bend the connectors backwards (in my experience).
+- Has "O" shaped die - which Engineer tools indicates as better/required.
+- Engineer PA-24 Dupont Crimper Tool Testing / Review: <https://www.youtube.com/watch?v=ltEFDEAx_yA>
+- Buy at Adafruit: <https://www.adafruit.com/product/5682>
 
-I personally tried the SN-28B tool (typ. blue handles). I would say no one die
-is the right size for any of the JST connectors mentionned here (physically too
-large/long). Also: it does not include a single "round"/"O" die - which is
-apparently a requirement for crimping Dupont connectors. So I am still lost
-when it comes to the intended purpose of the SN-28B tool (what does it crimp?)
-given how popular it appears to be.
-
-### Searching for compatible crimping tools
-Here, I list some information that seems to point to what is needed to
-crimp these small connectors:
-- [Adafruit-JSTDatasheet]
-- PA-24 (Engineering Tools): <https://www.engineertools-jp.com/pa24>
-  - [Direct link to JST "Application chart"](https://www.nejisaurus.engineer.jp/_files/ugd/104650_594335d26d724883affcaa8929df7c19.pdf)
-  - [Talks about "M" vs "O"-shaped dice](https://www.youtube.com/watch?v=tSq1LYbP0KA)
-- [MWCP-PA24]
-
-The information collected skews towards the PA-24 pliers. Not sure if that is red herring.
-
-### Working crimping tool for JST+Dupont found!!!
-This crimping tool ([Preciva PR-3254][Preciva-JSTDupont]) seems to work very
-well with both JST \& Dupont connectors.
+### Preciva PR-3254 (confirmed: JST-XH + Dupont)
+This crimping tool ([Preciva PR-3254][Preciva-JSTDupont]) works well with both
+JST \& Dupont connectors.
 - The die thickness matches the connectors well... and don't crush the
   retention pin (if pulled snug).
 - The ratchet does not bend the connectors backwards (in my experience).
@@ -171,8 +162,39 @@ Here are a few useful videos:
     Please find something safer.
 - [Adafruit-Crimping]
 
-Tips 👍:
+### Crimping tips 👍:
 - Always remove connectors from the metal strip backing - unless your crimps
   are specifically designed for them. On typical crimps: metal strips interfere
   with either the proper positioning of the connector pin... or the travel
   distance of the crimp jaws/dies.
+
+<a name="CrimpingTools_Other"></a>
+## Crimping tools for other connectors:
+<!----------------------------------------------------------------------------->
+⚠️Warning:
+- There is a dizzying number of different crimping tools that work with
+  different types of connector ends.
+- Information on which are which crimping tools works well with which connector
+  appears to be misleading, sparse and/or difficult to find.
+- Not sure why finding a matching tool for a given connector type is so
+  difficult - especially given that makers mostly stick to a finite subset of
+  the same connectors.
+
+Example of some crimpers... that are still a mistery to the author:
+- "Universal" Crimpers: (Adafruit): <https://www.adafruit.com/category/622>
+
+I personally tried the SN-28B tool (typ. blue handles). I would say no one die
+is the right size for any of the JST connectors mentionned here (physically too
+large/long). Also: it does not include a single "round"/"O" die - which is
+apparently a requirement for crimping Dupont connectors. So I am still lost
+when it comes to the intended purpose of the SN-28B tool (what does it crimp?)
+given how popular it appears to be.
+
+### Searching for compatible crimping tools: Things to know
+This section lists sample information you might need to be aware of when
+tracking down a crimping tool for your connector. It was found to be very
+useful in finding tools listed in the previous section.
+- [Adafruit-JSTDatasheet]
+- [Engineer Tools: PA-24][Engineer-PA24]
+  - [Direct link to JST "Application chart"](https://www.nejisaurus.engineer.jp/_files/ugd/104650_594335d26d724883affcaa8929df7c19.pdf)
+  - Talks about "M" vs "O"-shaped dice: <https://www.youtube.com/watch?v=tSq1LYbP0KA>

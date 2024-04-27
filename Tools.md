@@ -18,4 +18,5 @@
 
 # Physical tools/connectors
 - [RJ-45 connectors/tools](Connectors.md#CrimpingTools_RJ45)
+- [JST-XH/Dupont connectors/tools](Connectors.md#CrimpingTools_XHDupont)
 - [Other crimping tools](Connectors.md#CrimpingTools_Other)
