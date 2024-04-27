@@ -16,7 +16,7 @@ circuits elements together:
 - 6 spools: <https://www.adafruit.com/product/1311>
 - 10 spools: <https://www.adafruit.com/product/3174>
 
-# Dupont cables: the next step up:
+# Dupont cables: the next step up
 <!----------------------------------------------------------------------------->
 It seems like the next step up from using 22AWG cables on breadboards is to use
 cables terminated with "Dupont connectors".
@@ -32,7 +32,7 @@ Pre-crimped, ready to split:
 - Headers 1 row: [SMALL](https://www.adafruit.com/product/3145), [LARGE](https://www.adafruit.com/product/3146)
 - Headers 2 rows: [SMALL](https://www.adafruit.com/product/3143), [LARGE](https://www.adafruit.com/product/3144)
 
-# Advanced maker connectors:
+# Advanced maker connectors
 <!----------------------------------------------------------------------------->
 This section lists connectors popular with current maker boards, and their
 application. More information can be found here:
@@ -98,6 +98,33 @@ Larger (higher) than JST-XH.
 - Form factor might be practical for many people.
 - Used in alot of older equipment (typically [RS-232 communications](Communications.md#EIA_TIA_standards))
 - DB9 breakout connector: <https://www.adafruit.com/product/3122>
+
+# Wire selection
+<!----------------------------------------------------------------------------->
+A few important properties of wires to consider when selecting new ones:
+- PVC (typical/more rigid) vs silicone (more flexible).
+- Stranded (more flexible) vs solid core (more rigid).
+- Copper vs tinned (less oxidation).
+
+For direct "jumper" wiring (no connectors) on solder-less breadboards, you should use:
+- 22 AWG - solid core.
+- Tinned is probably better (less oxidation).
+
+## Suggestion for Dupont/JST cables
+Consider removing the jacket from un-used CAT5/6 (ethernet) cables:
+- Stranded 24AWG cables (typical) have decent amount of flexibility.
+- Stranded 24AWG cables seem to work well in Dupont/JST connectors.
+- Stay somewhat together being twisted in pairs.
+- Multiple colors.
+- Probably have some cables lying around you will never use otherwise.
+- Not certain how many years CAT5/6 wires will last if/when exposed to air.
+  Bare copper oxidates more than tinned wires.
+
+## Wire stripping
+These tools work well on small-gauge wire (up to):
+- [VCELINK Automatic Wire Stripper](https://www.amazon.ca/VCELINK-Automatic-Professional-Adjustable-Electrical/dp/B08G48R47N)
+- Similar ones on Adafruit: <https://www.adafruit.com/product/4747>
+- \*Not sure how well they work on more flexible silicone wire.
 
 # Crimping tools
 <!----------------------------------------------------------------------------->
