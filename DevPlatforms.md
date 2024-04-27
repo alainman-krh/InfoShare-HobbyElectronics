@@ -45,6 +45,7 @@ Here are some the more popular development platforms at this time:
 Making CircuitPython libraries available to SBCs (ex: Raspberry Pi) and MicroPython itself!
 - [Blinka-Home], [Blinka-Docs]
 - [Adafruit: CircuitPython Libraries on Linux and Raspberry Pi](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux)
+- [Adafruit: Adding a Single Board Computer to Blinka](https://learn.adafruit.com/adding-a-single-board-computer-to-blinka)
 
 # Other resources
 - [🎞️ CircuitPython vs MicroPython: Key Differences](https://www.youtube.com/watch?v=wyOcb2MHzIs)
