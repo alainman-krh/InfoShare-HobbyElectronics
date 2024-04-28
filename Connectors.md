@@ -225,3 +225,7 @@ useful in finding tools listed in the previous section.
 - [Engineer Tools: PA-24][Engineer-PA24]
   - [Direct link to JST "Application chart"](https://www.nejisaurus.engineer.jp/_files/ugd/104650_594335d26d724883affcaa8929df7c19.pdf)
   - Talks about "M" vs "O"-shaped dice: <https://www.youtube.com/watch?v=tSq1LYbP0KA>
+
+# Additional resources
+<!----------------------------------------------------------------------------->
+https://learn.adafruit.com/wires-and-connections/connectors

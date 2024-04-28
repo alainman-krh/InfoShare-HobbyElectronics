@@ -1,4 +1,6 @@
 <!-- Reference-style links to make tables & lists more readable -->
+[I2C-Wiki]: <https://en.wikipedia.org/wiki/I%C2%B2C>
+[SPI-Wiki]: <https://en.wikipedia.org/wiki/Serial_Peripheral_Interface>
 [UART-Wiki]: <https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter>
 
 ## Communications/Wi-Fi/Bluetooth
@@ -6,7 +8,18 @@
 # Wired protocols
 <!----------------------------------------------------------------------------->
 Modern microcontrollers typically have built-in support for at least 3 protocols:
-- UART, I2C, SPI
+- **I2C**: Lightweight "two-wire" (SDA/SCL) synchronous inter-chip communication.
+  - Technically require routing of supply/ground as well.
+  - [Wikipedia: I2C][I2C-Wiki]
+  - [Digikey: CircuitPython Basics I2C and SPI](https://www.digikey.ca/en/maker/projects/circuitpython-basics-i2c-and-spi/9799e0554de14af3850975dfb0174ae3)
+  - [Adafruit: I2C -- in CircuitPython](https://learn.adafruit.com/circuitpython-essentials/circuitpython-i2c)
+  - [Adafruit: CircuitPython I2C and SPI Under the Hood](https://learn.adafruit.com/circuitpython-basics-i2c-and-spi)
+- **Serial Peripheral Interface (SPI)**: Synchronous 4+ wire interface for inter-chip communication.
+  - [Wikipedia: Serial Peripheral Interface][SPI-Wiki]
+  - [Digikey: CircuitPython Basics I2C and SPI](https://www.digikey.ca/en/maker/projects/circuitpython-basics-i2c-and-spi/9799e0554de14af3850975dfb0174ae3)
+  - [Adafruit: CircuitPython I2C and SPI Under the Hood](https://learn.adafruit.com/circuitpython-basics-i2c-and-spi)
+- **Universal Asynchronous Receiver-Transmitter (UART)**: Asynchronous serial communication.
+  - [Wikipedia: UART][UART-Wiki]
 
 But other common protocols exist -- and can be integrated into your maker solutions.
 
