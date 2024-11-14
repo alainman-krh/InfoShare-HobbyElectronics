@@ -13,9 +13,9 @@
 1. 💾 [Programming methods (uploading code)](ProgrammingMethods.md)
 1. 🔨 [Tools](Tools.md)
 1. 🤸‍♀️ [Techniques](Techniques.md)
-1. [Other resources](#OtherRES)
+1. [Other resources](#other-resources)
 
-# Other resources<a name="OtherRES"></a>
+# Other resources
 <!----------------------------------------------------------------------------->
 Microcontroller-based development -- An overview/slice of the current state:
 - [🎞️ Choosing a Board for CircuitPython A Few Important Considerations (Gallaugher, J.)](https://www.youtube.com/watch?v=xCGPH4_RyPc)
