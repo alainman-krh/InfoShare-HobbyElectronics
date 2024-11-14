@@ -37,18 +37,20 @@ Here are some the more popular development platforms at this time:
   interoperable with native Micropython API/solutions.
   - \*Pre-compiled [Library Bundles](https://circuitpython.org/libraries) are also available for CircuitPython.
   - At time of writing: Missing multi-core support & interrupt programming (unlike MicroPython).
-  - [Adafruit: What is CircuitPython?](https://learn.adafruit.com/welcome-to-circuitpython/what-is-circuitpython)
-  - [Adafruit: Welcome to CircuitPython! (FAQ)](https://learn.adafruit.com/welcome-to-circuitpython/frequently-asked-questions)
-  - [Adafruit: CircuitPython Essentials](https://learn.adafruit.com/circuitpython-essentials)
+  - [What is CircuitPython? (Adafruit)](https://learn.adafruit.com/welcome-to-circuitpython/what-is-circuitpython)
+  - [CircuitPython FAQ (Adafruit)](https://learn.adafruit.com/welcome-to-circuitpython/frequently-asked-questions)
+  - [CircuitPython Essentials (Adafruit)](https://learn.adafruit.com/circuitpython-essentials)
+  - [🎞️ Installing CircuitPython on Multiple Boards, Blink, & dir(board) in REPL (Gallaugher, J.)](https://www.youtube.com/watch?v=Fqc_KI7BNxY)
   - 🐍 [More CircuitPython](CircuitPython/CktPy_Contents.md)
   
 # Blinka libraries
 Making CircuitPython libraries available to SBCs (ex: Raspberry Pi) and MicroPython itself!
 - [Blinka-Home], [Blinka-Docs]
-- [Adafruit: CircuitPython Libraries on Linux and Raspberry Pi](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux)
-- [Adafruit: Adding a Single Board Computer to Blinka](https://learn.adafruit.com/adding-a-single-board-computer-to-blinka)
+- [CircuitPython Libraries on Linux and Raspberry Pi (Adafruit)](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux)
+- [Adding a Single Board Computer to Blinka (Adafruit)](https://learn.adafruit.com/adding-a-single-board-computer-to-blinka)
 
 # Additional resources
-- [Adafruit: MicroPython or CircuitPython](https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/micropython-or-circuitpython)
-- [CircuitPython: Differences from MicroPython](https://github.com/adafruit/circuitpython#differences-from-micropython)
-- [🎞️ CircuitPython vs MicroPython: Key Differences](https://www.youtube.com/watch?v=wyOcb2MHzIs)
+- [MicroPython or CircuitPython (Adafruit)](https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/micropython-or-circuitpython)
+- [CircuitPython: Differences from MicroPython (Adafruit)](https://github.com/adafruit/circuitpython#differences-from-micropython)
+- [🎞️ CircuitPython vs MicroPython: Key Differences (Core Electronics)](https://www.youtube.com/watch?v=wyOcb2MHzIs)
+- [🎞️ Choosing a Board for CircuitPython A Few Important Considerations (Gallaugher, J.)](https://www.youtube.com/watch?v=xCGPH4_RyPc)

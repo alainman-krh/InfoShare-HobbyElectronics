@@ -124,6 +124,7 @@ Mega:
 ## Raspberry Pi:
 <!----------------------------------------------------------------------------->
 - [RP2040 Pico][RPi-Pico]: The first microcontroller board from the Raspberry Pi foundation
+  - [🎞️📜 Raspberry Pi Pico / Pico W Tutorials (Gallaugher, J.)](https://www.youtube.com/playlist?list=PL9VJ9OpT-IPTfjeA45Ab_-9IY1VGnNY0K)
 
 ## Seeed Studio:
 <!----------------------------------------------------------------------------->
